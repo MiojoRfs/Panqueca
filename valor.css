@@ -1,0 +1,107 @@
+body {
+    /* background-image: url('fundo.jpg');*/
+    padding: 0px;
+    margin: 0px;
+    background-color: #f2f2f2;
+    /* Bege claro */
+}
+
+
+header {
+    background-color: #e8d5f0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.logo {
+    width: 80;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+    /* Remove os marcadores padrão */
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 320px;
+    /* Espaçamento entre os itens */
+
+}
+
+
+.titulo {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 22px;
+    font-style: normal;
+    align-items: center;
+    color: #5a5a5a;
+    text-align: center;
+}
+
+.menu {
+    color: #333;
+    font-size: 22px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+.paragrafo {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 23px;
+    color: #424242;
+    text-align: center;
+
+    background-color: #e8d5f0;
+    padding: 20px;
+
+    /* Adicionando as propriedades para o quadrado arredondado */
+    width: 900px;
+    /* Ajuste a largura conforme necessário */
+    height: px;
+    /* Ajuste a altura conforme necessário */
+    border-radius: 10px;
+    margin: 0 auto;
+
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 1000px;
+    text-align: center;
+    
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #cfcfcf; 
+  
+  }
+
+  .container {
+    margin: 0 auto;
+    width: 1005px;
+  }
